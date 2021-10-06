@@ -1,0 +1,45 @@
+{
+    "name": "misc-hooks",
+    "version": "0.0.1",
+    "description": "because I never want to have to do this twice",
+    "main": "index.js",
+    "scripts": {
+        "lint": "eslint \"./src/**/*.{ts,tsx}\""
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/johnnybenson/misc-hooks.git"
+    },
+    "keywords": [
+        "react",
+        "hooks",
+        "so sad"
+    ],
+    "author": "internet",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/johnnybenson/misc-hooks/issues"
+    },
+    "homepage": "https://github.com/johnnybenson/misc-hooks#readme",
+    "peerDependencies": {
+        "react": "^17.0.2"
+    },
+    "devDependencies": {
+        "@types/node": "^16.10.3",
+        "@types/react": "^17.0.27",
+        "@typescript-eslint/eslint-plugin": "^4.33.0",
+        "@typescript-eslint/parser": "^4.33.0",
+        "babel-eslint": "^10.1.0",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-config-react-app": "^6.0.0",
+        "eslint-plugin-flowtype": "^5.10.0",
+        "eslint-plugin-import": "^2.24.2",
+        "eslint-plugin-jsx-a11y": "^6.4.1",
+        "eslint-plugin-prettier": "^4.0.0",
+        "eslint-plugin-react-hooks": "^4.2.0",
+        "eslint-plugin-react": "^7.26.1",
+        "eslint": "^7.32.0",
+        "prettier": "^2.4.1",
+        "react": "^17.0.2"
+    }
+}
